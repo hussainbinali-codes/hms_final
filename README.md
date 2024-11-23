@@ -20,4 +20,10 @@ Clone a Project
 - **move the index file tto root directory**
 
 
+// composer install on hostinger
+ php -r "unlink('composer-setup.php');"
+ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+ php composer-setup.php --2
+php composer.phar --version
+ php composer.phar install
 
